@@ -1,0 +1,134 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color:darkslateblue;
+    color: #fff;
+    padding: 10px 0; 
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin: 5px 0 0;
+    font-style: italic;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color:#444;
+    color:white;    
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color:white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sections */
+  section {
+    padding: 20px;
+    background-color:lavender;
+   
+  }
+  
+  h2 {
+    color:#444;
+    text-align: center;
+  }
+  /*aboutme*/
+  .about {
+    float: right;
+    width: auto;
+    padding: 30px;
+    margin: 0 150px 0 150px ;
+    
+  }
+  hr{
+    border: 1px solid black;
+  }
+  .img{
+    float: left;
+  }
+ 
+  
+  /* Projects */
+  .project {
+    background:whitesmoke;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid black;
+  }
+   /* Qualification */
+   .q1 {
+    background:whitesmoke;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid black;
+   }
+  #about{
+    text-align: center;
+  }
+  #about .container{
+    width: 300px;
+    margin: 0px 250px 0px 450px;
+  } 
+   /*contactform */
+   #contactform {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto 0 auto;
+    border: 1px solid black;
+    padding: 40px;
+    background-color:whitesmoke;
+    }
+    #contactform button {
+      background-color: darkslateblue;
+      border-radius: 5px;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100px;
+    }
+
+  
+  /* Footer */
+  footer {
+    background-color:#444;
+    color:white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  
