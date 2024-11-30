@@ -101,7 +101,7 @@ body {
   }
   #about .container{
     width: 300px;
-    margin: 0px 250px 0px 450px;
+    margin: 0px auto 0px auto;
   } 
    /*contactform */
    #contactform {
